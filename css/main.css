@@ -1,0 +1,325 @@
+@font-face {
+    src: url("../fonts/Muller Regular.ttf");
+    font-family: "MullerRegular";
+}
+
+@font-face {
+    src: url("../fonts/Muller Bold.ttf");
+    font-family: "MullerBold";
+}
+
+@font-face {
+    src: url("../fonts/MullerExtraBold.otf");
+    font-family: "MullerExtraBold";
+}
+
+@font-face {
+    src: url("../fonts/MullerBlack.otf");
+    font-family: "MullerBlack";
+}
+
+body {
+    margin: 0;
+    font-family: "MullerRegular", sans-serif;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo span {
+    font-size: 24px;
+    font-family: "MullerBlack", sans-serif;
+    color: rgb(248, 195, 120);
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 85px;
+    margin-left: 8px;
+}
+
+#menu {
+    margin: 0 261px 0 248px;
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu a.menu-item {
+    font-size: 16px;
+    color: rgb(157, 107, 38);
+    text-decoration: none;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    max-width: 622px;
+}
+
+#main-info h1 {
+    font-size: 45px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(181, 144, 90);
+    font-weight: bold;
+    line-height: 1.222;
+    margin: 0;
+}
+
+#main-info h1 span {
+    color: #f7bb64;
+}
+
+#main-advantages {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantage {
+    max-width: 292px;
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+
+.advantage .advantage-text {
+    margin-left: 16px;
+}
+
+.advantage .advantage-title {
+    font-size: 16px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(246, 175, 71);
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.advantage .advantage-description {
+    font-size: 16px;
+    color: rgb(180, 144, 91);
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: rgb(246, 175, 71);
+    text-align: center;
+    font-size: 16px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(54, 35, 7);
+    padding: 22px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#main-action {
+    margin-top: 60px;
+}
+
+#main-action .btn {
+    width: 224px;
+    display: inline-block;
+    background: #cb4c00;
+}
+
+#products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 161px;
+}
+
+#products-title {
+    font-size: 35px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(184, 151, 102);
+    text-align: center;
+}
+
+#products-items {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    width: 282px;
+    padding: 27px 20px 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.product .product-title {
+    font-size: 18px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(54, 36, 7);
+    margin-top: 15px;
+}
+
+.product .product-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    height: 49px;
+    margin-top: 17px;
+}
+
+.product .product-button.btn {
+    border: 0;
+    outline: none;
+    margin-top: 15px;
+    padding: 17px;
+    width: 100%;
+}
+
+.product .product-image {
+    height: 155px;
+}
+
+#order {
+    overflow: hidden;
+}
+
+#order-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 216px 0 115px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#order-text {
+    max-width: 384px;
+}
+
+#order-text-title {
+    font-size: 35px;
+    font-family: "MullerExtraBold", sans-serif;
+    line-height: 1.286;
+    color: #b4905b;
+}
+
+#order-text-title span {
+    color: rgb(246, 175, 71);
+}
+
+#order-text-message {
+    font-size: 16px;
+    color: rgb(180, 144, 91);
+    line-height: 1.5;
+    width: 377px;
+    margin-top: 65px;
+}
+
+#order-form {
+    max-width: 330px;
+}
+
+#order-form input {
+    border: 1px solid rgb(180, 144, 91);
+    background-color: rgb(255, 255, 255);
+    width: 328px;
+    padding: 23px;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: 0;
+    margin-bottom: 24px;
+}
+
+::placeholder {
+    color: rgb(199, 166, 118);
+}
+
+#order-form button.btn {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+#order-image {
+    width: 282px;
+    position: relative;
+}
+
+#order-image img {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+#footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+#rights {
+    font-size: 12px;
+    color: rgb(185, 180, 180);
+    margin-left: 358px;
+}
+
+#burger {
+    display: none;
+}
+
+#menu svg {
+    display: none;
+}
+
+.hvr-radial-out:before {
+    background: #cb4c00;
+}
+
+.hvr-shutter-in-vertical:before {
+    background: rgb(246, 175, 71);
+}
+
+.hvr-rectangle-out:before {
+    background: #cb4c00;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
